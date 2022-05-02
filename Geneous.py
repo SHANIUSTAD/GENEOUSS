@@ -4,24 +4,20 @@
 # [GCC Android (7714059, based on r416183c1) Clang 12.0.8 (https://android.google
 # Embedded file name: Tech_Qaiser 
 import os, marshal
-try:
-    import requests, os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests, os, time, uuid, requests
+try:import requests, os, sys, time, datetime, re, random, hashlib, threading, json, getpass, urllib, cookielib, requests, os, time, uuid, requests
     from multiprocessing.pool import ThreadPool
     os.system('clear')
     os.system('termux-setup-storage') 
-try:   
-    except ImportError:
+try:except ImportError:
     print '\n [\xc3\x97] The requests module is not installed!...\n'
     os.system('pip2 install requests')
 
-try:
-    import concurrent.futures
+try:import concurrent.futures
 except ImportError:
     print '\n [\xc3\x97] Futures module is not installed yet!...\n'
     os.system('pip2 install futures')
 
-try:
-    import bs4
+try:import bs4
 except ImportError:
     print '\n [\xc3\x97] Bs4 module is not installed yet!...\n'
     os.system('pip2 install bs4')
